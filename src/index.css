@@ -1,0 +1,16 @@
+:root{
+  --bg: #071029;
+  --card: #071b2b;
+  --muted: #9fb4dd;
+  --accent: #06b6d4;
+  --accent-2: #6366f1;
+  color-scheme: dark;
+}
+html,body,#root{
+  height:100%;
+  margin:0;
+  background:var(--bg);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'Helvetica Neue', Arial;
+  color:#e6eef8;
+}
+a{ color:var(--accent); }
